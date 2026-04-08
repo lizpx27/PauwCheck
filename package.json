@@ -1,0 +1,19 @@
+{
+  "name": "pauwcheck",
+  "version": "1.0.0",
+  "description": "Personality-powered wellness companion for DePauw University students",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "deploy": "firebase deploy"
+  },
+  "keywords": ["wellness", "depauw", "mental-health", "big-five", "personality"],
+  "author": "DePauw Hackathon Team 2026",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^10.12.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
